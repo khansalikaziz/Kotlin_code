@@ -1,12 +1,16 @@
 import java.util.*
 
 fun main(){
-    var a= Array <Int>(5){0}
-    var sc= Scanner(System.`in`)
 
-    var b= Array <Int>(5){0}
-    var c= Array <Int>(a.size+b.size){0}
+    var sc= Scanner(System.`in`)
+    println("Enter size of array 1");
+    var n1=sc.nextInt();
+    var a= Array <Int>(n1){0}
     var count:Int=0;
+    println("Enter size of array 2");
+    var n2=sc.nextInt();
+    var b= Array <Int>(n2){0}
+    var c= Array <Int>(a.size+b.size){0}
     println("Enter element of array 1")
     for (i in 0..a.size-1){
         var value:Int=sc.nextInt()
@@ -15,7 +19,7 @@ fun main(){
         count++;
     }
     println("Enter element of array 2")
-    for (k in 0..a.size-1){
+    for (k in 0..b.size-1){
         var value:Int=sc.nextInt();
         b.set(k,value );
         c.set(count,value)
