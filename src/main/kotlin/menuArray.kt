@@ -25,8 +25,18 @@ fun main(){
             }
         }
         else if(inp==3){
+            println("Output is :");
+            for (i in 0 .. arr.size-1){
+                if (arr[i]==0){
+                    continue;
+                }
+                else{
+                    println(arr[i]);
+                }
+            }
             println("Exiting");
             break;
         }
+
     }
 }
