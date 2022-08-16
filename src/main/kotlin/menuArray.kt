@@ -37,6 +37,10 @@ fun main(){
             println("Exiting");
             break;
         }
-
+       else if(inp==4){
+           println("Enter index to delete");
+           var ind:Int=sc.nextInt();
+           arr[ind]=0;
+        }
     }
 }
