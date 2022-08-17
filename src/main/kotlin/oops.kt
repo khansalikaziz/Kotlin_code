@@ -2,9 +2,6 @@ class Car{
     var modelId:Int=13;
     var name="";
 
-
-
-
 }
 
 fun main(){
