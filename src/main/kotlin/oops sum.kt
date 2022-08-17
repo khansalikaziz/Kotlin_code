@@ -24,3 +24,4 @@ fun main(){
 
 }
 //if class is open then it is not final we can inherit that
+//By default every class is final in kotlin
